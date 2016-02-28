@@ -62,13 +62,11 @@ Pushing onto a stack(adding), popping off a stack(removing).
 
 Linked List as a stack:
 
-Pros:
+<strong>Pros:</strong>
       <br>
-      No hard size (depth) limit
-      <br>
-      Easy to implement (no bounds checking, empty list = empty stack)
-      <br>     
-Cons:
+      No hard size (depth) limit<br>
+      Easy to implement (no bounds checking, empty list = empty stack)<br>
+<strong>Cons:</strong>
       <br>
       Memory allocation on push.<br>
       Per-node memory overhead.<br>

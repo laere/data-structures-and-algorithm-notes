@@ -60,11 +60,12 @@ Contains two pointers, one to the next node and one to the previous node.
 A stack is a collection in which data is added and removed. In a Last In First Out order (LIFO).
 Pushing onto a stack(adding), popping off a stack(removing).
 
-Linked List as a stack.
-      Pros:
-            No hard size (depth) limit
-            Easy to implement (no bounds checking, empty list = empty stack).
-      Cons:
-            Memory allocation on push.
-            Per-node memory overhead.
-            Potential performance issues.
+Linked List as a stack:
+
+Pros:
+      No hard size (depth) limit
+      Easy to implement (no bounds checking, empty list = empty stack).
+Cons:
+      Memory allocation on push.
+      Per-node memory overhead.
+      Potential performance issues.

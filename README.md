@@ -27,5 +27,6 @@ Provides a mechanism to contain a piece of data. Provides a means of connecting 
           }
         }
       }
-      
-   
+
+<h2>Linked List</h2>
+A single chain of nodes. Head pointer(first node). Tail pointer(last node). Operations(add, remove, find, enumerate)

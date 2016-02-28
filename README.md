@@ -57,5 +57,5 @@ Contains two pointers, one to the next node and one to the previous node.
 
 
 <h2>Stack</h2>
-A stack is a collection in which data is added and removed. In a Last In First Out Order (LIFO).
+A stack is a collection in which data is added and removed. In a Last In First Out order (LIFO).
 Pushing onto a stack(adding), popping off a stack(removing).

@@ -1,3 +1,4 @@
+
 <h2>Node - Node Chain</h2> 
 Provides a mechanism to contain a piece of data. Provides a means of connecting it self to other nodes, via an object reference (the Next pointer).
 
@@ -27,4 +28,4 @@ Provides a mechanism to contain a piece of data. Provides a means of connecting 
         }
       }
       
-      &copy; This information comes from Pluralsight's Data Structures and Algorithms courses
+   

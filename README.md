@@ -31,5 +31,20 @@ Provides a mechanism to contain a piece of data. Provides a means of connecting 
 <h2>Linked List</h2>
 A single chain of nodes. Head pointer(first node). Tail pointer(last node). Operations(add, remove, find, enumerate). Head/Tail initial value = null.
 
-<h5>Add to Front</h5>
+      public void AddFirst(LinkedListNode<T> node) {
+            //save off the head node
+            LinkedListNode<T> temp = Head;
+            // Point to head to new node
+            Head = node;
+            // Insert the rest of the list behind the head
+            Head.Next = temp;
+            
+            Count++;
+            
+            if (Count == 1) {
+            // If list is empty, head and tail should both point
+            // to the new node.
+                  Tail = Head;
+            }
+      }
 

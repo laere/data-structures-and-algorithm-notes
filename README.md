@@ -65,6 +65,7 @@ Linked List as a stack:
 Pros:
       No hard size (depth) limit
       Easy to implement (no bounds checking, empty list = empty stack).
+ <br>     
 Cons:
       Memory allocation on push.
       Per-node memory overhead.

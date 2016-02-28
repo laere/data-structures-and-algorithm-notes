@@ -32,6 +32,11 @@ Provides a mechanism to contain a piece of data. Provides a means of connecting 
 <h2>Linked List</h2>
 A single chain of nodes. Head pointer(first node). Tail pointer(last node). Operations(add, remove, find, enumerate). Head/Tail initial value = null.
 
+<h4>Singly Linked list</h4>
+      Each node has a single link to another node. Works great when you only need forward access to the nodes.
+<h4>Doubly Linked list</h4>
+      Contains two pointers, one to the next node and one to the previous node.
+
       public void AddFirst(LinkedListNode<T> node) {
             //save off the head node
             LinkedListNode<T> temp = Head;
